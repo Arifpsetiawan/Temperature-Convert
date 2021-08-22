@@ -1,0 +1,23 @@
+{
+  "name": "temperature-convert",
+  "version": "1.0.0",
+  "description": "convert and test",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest --env=jsdom"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arifpsetiawan/Temperature-Convert.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arifpsetiawan/Temperature-Convert/issues"
+  },
+  "homepage": "https://github.com/Arifpsetiawan/Temperature-Convert#readme",
+  "devDependencies": {
+    "jest": "^27.0.6"
+  }
+}

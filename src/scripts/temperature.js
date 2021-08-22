@@ -58,9 +58,11 @@ let result = document.getElementById("result");
 let inputType = document.getElementById("inputType");
 let resultType = document.getElementById("resultType");
 
-input.addEventListener("keyup", myResult);
-inputType.addEventListener("change", myResult);
-resultType.addEventListener("change", myResult);
+document.addEventListener("DOMContentLoaded", function () {
+  input.addEventListener("keyup", myResult);
+  inputType.addEventListener("change", myResult);
+  resultType.addEventListener("change", myResult);
+});
 
 function myResult() {
   let inputValue = input.value;
@@ -80,3 +82,5 @@ function myResult() {
     result.value = resultVal;
   }
 }
+
+module.exports = Temperature;
