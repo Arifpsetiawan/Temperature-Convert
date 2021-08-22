@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <title>Temperature Convert</title>
+  </head>
+  <body>
+    <div class="container d-flex flex-column justify-content-center">
+      <!-- Start Temperature Convert -->
+      <h1 class="text-center">Temperature Convert</h1>
+      <div class="temperature">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-sm-3">
+            <select id="inputType" class="form-select">
+              <option value="celcius">Celcius</option>
+              <option value="fahrenheit">Fahrenheit</option>
+              <option value="reamur">Reamur</option>
+              <option value="kelvin">Kelvin</option>
+            </select>
+          </div>
+          <div class="col-sm-1">
+            <p class="text-center">To</p>
+          </div>
+          <div class="col-sm-3">
+            <select id="resultType" class="form-select">
+              <option value="celcius">Celcius</option>
+              <option value="fahrenheit">Fahrenheit</option>
+              <option value="reamur">Reamur</option>
+              <option value="kelvin">Kelvin</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <input type="number" class="form-control text-center" name="input" id="input" placeholder="Input temperature here!!!" />
+      <h4 class="text-center">Result</h4>
+      <input type="number" class="form-control text-center" name="result" id="result" placeholder="This is a result" disabled />
+      <!-- End of Temperature Convert -->
+      <hr />
+      <!-- Start Change Background Color -->
+      <h3 class="text-center">Change Background Color</h3>
+      <input type="text" class="form-control text-center" name="backgroundColor" id="backgroundColor" placeholder="Type the color here!!!" />
+      <button type="button" class="btn btn-primary col-sm-2 align-self-center change" id="btnBackgroundColor">Change</button>
+      <!-- End of Change Background Color -->
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="./script/temperature.js"></script>
+    <script src="./script/background.js"></script>
+  </body>
+</html>

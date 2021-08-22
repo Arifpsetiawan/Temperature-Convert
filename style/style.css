@@ -1,0 +1,32 @@
+body {
+  background-color: lightgreen;
+}
+
+body .container {
+  min-height: 100vh;
+}
+
+body .container h1.text-center {
+  margin-bottom: 3rem;
+}
+
+body .container .temperature {
+  margin-bottom: 2rem;
+}
+
+body .container .temperature p {
+  margin: 0.5rem 0;
+}
+
+body .container h4 {
+  margin: 1rem 0;
+}
+
+body .container h3 {
+  margin: 3rem 0 2rem 0;
+}
+
+body .container button.change {
+  margin-top: 1rem;
+}
+/*# sourceMappingURL=style.css.map */
