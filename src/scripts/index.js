@@ -62,6 +62,7 @@ document.addEventListener("DOMContentLoaded", function () {
   input.addEventListener("keyup", myResult);
   inputType.addEventListener("change", myResult);
   resultType.addEventListener("change", myResult);
+  document.getElementById("btnBackgroundColor").addEventListener("click", changeColor);
 });
 
 function myResult() {
@@ -81,6 +82,11 @@ function myResult() {
     const resultVal = res.kelvinTo(resultTypeValue, parseFloat(inputValue));
     result.value = resultVal;
   }
+}
+
+//Change background color by input value
+function changeColor() {
+  document.body.style.backgroundColor = document.getElementById("backgroundColor").value;
 }
 
 module.exports = Temperature;

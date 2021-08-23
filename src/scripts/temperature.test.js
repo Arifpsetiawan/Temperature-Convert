@@ -1,4 +1,4 @@
-const Temperature = require("./temperature");
+const Temperature = require("./index");
 
 const check = new Temperature();
 //Test method celcius
