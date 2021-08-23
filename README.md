@@ -10,14 +10,14 @@ Unduh repository ke dalam komputer dapat menggunakan perintah `git clone`.
 git clone https://github.com/Arifpsetiawan/Temperature-Convert.git
 ```
 
-Buka file **index.html** menggunakan Ekstensi **Live Server** pada **VS Code**.
+Buka file **index.html** untuk melihat.
 
 ## Menjalankan Test
 
 Install **Jest** terlebih dahulu menggunakan `npm install`.
 
 ```npm
-npm install --save-dev jest
+npm install jest
 ```
 
 Kemudian untuk menjalankan test gunakan perintah
