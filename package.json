@@ -2,8 +2,7 @@
   "name": "temperature-convert",
   "version": "1.0.0",
   "description": "convert and test",
-  "main": "index.js",
-  "type": "module",
+  "main": "temperature.test",
   "scripts": {
     "test": "jest --env=jsdom"
   },
